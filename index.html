@@ -2,32 +2,154 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Oliveira | Creative Digital Designer</title>
-    <meta name="description" content="Hi I'm Mary, a UI & UX designer based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design."> 
-    <link rel="stylesheet" href="exercises/assets/css/global.css">  
+    <title>Marcos Portfolio</title>
+    <meta name="description" content="A basic webpage containing my Portfolio.">
+
+    <!-- CSS will help me to set up my page -->
+    <link rel="stylesheet" href="assets/css/resets.css">
+    <link rel="stylesheet" href="assets/css/hero-image.css">
+    <link rel="stylesheet" href="assets/css/grid-3.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/utils.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 5 icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    
+
 </head>
 
 <body>
 
-    <h1>Hi, I'm Marcos Oliveira</h1>  
+    <!-- Hero Block -->
+    <header class="hero-block text-center">
 
-    <h2>Front-End Developer</h2>
+        <div class="hero-text-container">
+			<h1>Marcos Oliveira</h1>
+			<h2>Full Stack Developer</h2>
+        </div>
 
-    <p>I have been studying Web Developer at <a href="https://dorset.ie/">Dorset College</a></p>
+        <div class="hero-bg-media">
+            <img src="assets/img/business2.jpg" alt="sample background image">   
+        </div>
 
-    
-    <img src="exercises/assets/img/main_img.jpg" alt="Front-End Developer">
+        <div class="bg-overlay"></div>
 
-    <h3>Sample Web Pages</h3>
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-    <p><a href="exercises/page-7.html">Smoothies</a></p> 
-    <p><a href="exercises/page-8.html">Software Analytics</a></p>
+    </header>
+    <!-- /Hero Block -->
+
+
+    <!-- Main Content -->
+    <main>
+        <article>
+        
+            <section class="container-flex">
+                
+                <!-- Title and subtitle  -->
+                <div class="col-1 text-center">
+                    <h2>Producing content for websites</h2>
+                    <p> knowledge
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js-square"></i>
+                        <i class="fab fa-node"></i>
+                    </p>
+                </div>
+        
+                <!-- Flex Box -->
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/design-420x250.jpg" alt="Design">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+                    
+                    <a href="#" class="btn btn-solid btn-rounded">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        Order Now
+                    </a>
+                </div>
+        
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/woman-pink-420x250.jpg" alt="Woman pink">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+        
+                    <a href="#" class="btn btn-solid btn-rounded">
+                        <i class="fas fa-shopping-cart"></i>Order Now
+                    </a>
+                </div>
+        
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/laptop-window-420x250.jpg" alt="Laptop window">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+        
+                    <a href="#" class="btn btn-solid btn-rounded">
+                        <i class="fas fa-shopping-cart"></i>Order Now
+                    </a>        
+                </div>
+            </section>
+
+
+            <!-- Fix this in my css later on -->
+            <section class="container-flex" style="background-color: #f2f2f2">
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/food-420x250.jpg" alt="Food">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+        
+                    <a href="#" class="btn btn-solid btn-rounded">
+                        <i class="fas fa-shopping-cart"></i>Order Now
+                    </a>
+                </div>
+        
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/kitchen-420x250.jpg" alt="Kitchen">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+        
+                    <a href="#" class="btn btn-ghost btn-rounded">
+                        <i class="fas fa-shopping-cart"></i>Order Now
+                    </a>
+                </div>
+        
+                <div class="col-3">
+                    <figure>
+                        <img src="assets/img/shop-420x250.jpg" alt="Shop">
+                    </figure>
+        
+                    <h3>Lorem ipsum dolo</h3>
+                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+        
+                    <a href="#" class="btn btn-gradient btn-rounded">
+                        <i class="fas fa-shopping-cart"></i>Order Now
+                    </a>
+                </div>
+                    
+            </section>
+        
+        </article>
+    </main>
 
 </body>
 </html>
