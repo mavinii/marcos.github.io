@@ -5,160 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcos Portfolio</title>
-    <meta name="description" content="A basic webpage containing my Portfolio.">
+    <meta name="description" content="Marcos Oliveira Full Stack Developer.">
 
-    <!-- CSS will help me to set up my page -->
-    <link rel="stylesheet" href="assets/css/resets.css">
-    <link rel="stylesheet" href="assets/css/hero-image.css">
-    <link rel="stylesheet" href="assets/css/grid-3.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/utils.css">
+	<!-- Preload hero image -->
 
-    <!-- Google Fonts -->
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome 5 icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics  -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQBCG8H32E"></script>
     <script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-	  gtag('config', 'G-XQBCG8H32E');
+        gtag('config', 'G-XQBCG8H32E');
     </script>
 
 </head>
 
+
 <body>
+    <!-- navigation menu -->
+    <nav> </nav>
 
-    <!-- Hero Block -->
-    <header class="hero-block text-center">
-
-        <div class="hero-text-container">
-			<h1>Marcos Oliveira</h1>
-			<h2>Full Stack Developer</h2>
+    <!-- header hero block -->
+    <header class="hero-block text-center-desktop text-center-mobile">
+        <div class="hero-text-container">            
+            <div class="upper-label">Marcos Oliveira</div>
+            <h1 class="fade-in">Full Stack Developer</h1>
+            <h2 class="fade-in">The solution for your company</h2>
+            <div class="container-btn"><a href="#" class="btn btn-primary"><span>Get in Touch</span></a></div>
+        </div>           
+            
         </div>
-
         <div class="hero-bg-media">
-            <img src="assets/img/business2.jpg" alt="sample background image">   
-        </div>
-
+            <img src="assets/img/business2.jpg" alt="Placeholder image">
+        </div>    
         <div class="bg-overlay"></div>
-
     </header>
-    <!-- /Hero Block -->
+    <!-- / header hero Block -->
 
 
-    <!-- Main Content -->
+    <!-- main content with sections -->
     <main>
-        <article>
-        
-            <section class="container-flex">
+        <!-- section about me with picture and icons -->
+		<section class="container-flex cols-2-split theme-one split-image-right">
+            <div class="col-2">                
+                <h2>Hello there, I'm Marcos</h2>
+                <p>From São Paulo, Brazil. I have been living in Dublin, Ireland. I was born in a small city on the coast of São Paulo, called Praia Grande.</p>
+
+                <h3>Studies</h3>
+                <p>After finishing my English course, I have been studing I.T. at Dorset College.</p>
                 
-                <!-- Title and subtitle  -->
-                <div class="col-1 text-center">
-                    <h2>Producing content for websites</h2>
-                    <p> knowledge
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-js-square"></i>
-                        <i class="fab fa-node"></i>
-                    </p>
-                </div>
-        
-                <!-- Flex Box -->
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/design-420x250.jpg" alt="Design">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-                    
-                    <a href="#" class="btn btn-solid btn-rounded">
-                        <i class="fas fa-arrow-circle-right"></i>
-                        Order Now
-                    </a>
-                </div>
-        
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/woman-pink-420x250.jpg" alt="Woman pink">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-        
-                    <a href="#" class="btn btn-solid btn-rounded">
-                        <i class="fas fa-shopping-cart"></i>Order Now
-                    </a>
-                </div>
-        
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/laptop-window-420x250.jpg" alt="Laptop window">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-        
-                    <a href="#" class="btn btn-solid btn-rounded">
-                        <i class="fas fa-shopping-cart"></i>Order Now
-                    </a>        
-                </div>
-            </section>
+                <h3>Knowledge</h3>
+                <!-- Icons -->
+                <div class="container-btn">
+                    <img src="assets/img/icons/w3_html5-icon.svg">
+                    <img src="assets/img/icons/w3_css-icon.svg">
+                    <img src="assets/img/icons/javascript-horizontal.svg">
+                    <img src="assets/img/icons/nodejs-horizontal.svg">
+                </div>               
+            </div>
+    
+            <div class="col-2">
+                <figure><img src="assets/img/circle-cropped Resized.jpg" alt="About"></figure>
+            </div>           
+        </section>
+
+        <!-- previous jobs -->
+        <section class="container-flex" style="background-color: #f2f2f2">
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/Adelaide_Road_Church.png" alt="Jobs">
+                </figure>
+    
+                <h3>Adelaide Church Dublin</h3>
+                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+    
+                <a href="https://www.adelaideroadchurch.ie" class="btn btn-ghost btn-rounded">More</a>
+            </div>
+    
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/kitchen-420x250.jpg" alt="Kitchen">
+                </figure>
+    
+                <h3>Lorem ipsum dolo</h3>
+                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+    
+                <a href="#" class="btn btn-ghost btn-rounded">More</a>
+            </div>
+    
+            <div class="col-3">
+                <figure>
+                    <img src="assets/img/shop-420x250.jpg" alt="Shop">
+                </figure>
+    
+                <h3>Lorem ipsum dolo</h3>
+                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
+    
+                <a href="#" class="btn btn-ghost btn-rounded">More</a>
+            </div>
+        </section>
 
 
-            <!-- Fix this in my css later on -->
-            <section class="container-flex" style="background-color: #f2f2f2">
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/food-420x250.jpg" alt="Food">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-        
-                    <a href="#" class="btn btn-solid btn-rounded">
-                        <i class="fas fa-shopping-cart"></i>Order Now
-                    </a>
-                </div>
-        
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/kitchen-420x250.jpg" alt="Kitchen">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-        
-                    <a href="#" class="btn btn-ghost btn-rounded">
-                        <i class="fas fa-shopping-cart"></i>Order Now
-                    </a>
-                </div>
-        
-                <div class="col-3">
-                    <figure>
-                        <img src="assets/img/shop-420x250.jpg" alt="Shop">
-                    </figure>
-        
-                    <h3>Lorem ipsum dolo</h3>
-                    <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-        
-                    <a href="#" class="btn btn-gradient btn-rounded">
-                        <i class="fas fa-shopping-cart"></i>Order Now
-                    </a>
-                </div>
-                    
-            </section>
-        
-        </article>
+
     </main>
 
+    
+    <!-- footer -->
+    <footer> </footer>
+   
 </body>
 </html>
