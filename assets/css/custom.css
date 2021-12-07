@@ -136,16 +136,29 @@
 /* Global font */
 body { font-family: var(--global-font) }
 
-
-/* ========= THEME ONE ========== */
-
-/* Background colour */
-.theme-one .col-1 h3 { color: var(--gray-700) }
-
-
 /* PAST THE CSS HERE */
 
-/* Icons */
+/* Top Menu */
+.container-menu a:link,
+.container-menu a:visited { color: var(--pink-900) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--ontrend-600) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--black-000) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { background-color: var(--white-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { color: var(--black-000) }
+.container-menu.menu-desktop { background-color: var(--gray-200) }
+.container-menu.menu-mobile { background-color: var(--gray-200) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
+
+
 .container-btn img {
     width:auto;
     height: auto;
