@@ -3,7 +3,7 @@
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body { max-width: 1600px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
 img { width: 100%; height: auto; display: block }
 
@@ -1579,7 +1579,7 @@ a:not(.btn):any-link {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 7px;
-    color: var(--blue-700);
+    color: var(--white-000);
     transition: all 0.2s linear;
 }
 
@@ -1587,7 +1587,8 @@ a:not(.btn):any-link {
     text-decoration: none;
     text-decoration-thickness: 0;
     color: var(--black-000);
-    background-color: var(--gray-200);
+    /* Icon inative while */
+    /* background-color: var(--gray-200); */
 }
 
 /* =============== BUTTONS: REAL AND FAUX ============== */
@@ -2036,7 +2037,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
     display: flex;
     justify-content: space-between;
     padding: 0 6% 0 0;
-    background-color: var(--gray-300);
+    background-color: var(--white-000);
 }
 
 /* Website logo */

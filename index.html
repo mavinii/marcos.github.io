@@ -10,8 +10,8 @@
 	<!-- Preload hero image -->
 
 	<!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/lunadoge.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/lunadoge.css"/>
+    <link rel="stylesheet" href="assets/css/custom.css"/>
 
 	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,8 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
 	<!-- Font Awesome 5 icons -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
@@ -40,17 +42,16 @@
 
         gtag('config', 'G-XQBCG8H32E');
     </script>
-
 </head>
 
-
 <body>
-    <!-- navigation menu -->
+
+    <!-- Navigation menu -->
     <nav class="container-menu menu-desktop">
-        <a href="#"><img src="assets/img/Marcos Logo.png" alt="website logo"></a>
+        <a href="#"><img src="assets/img/MarcosLogo.png" alt="website logo"></a>
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Jobs</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#jobs">Jobs</a></li>
             <li><a href="#" id="btn-cta" class="btn-soft"><span>Contact</span></a></li>
         </ul>
         <div class="item-icon">
@@ -77,13 +78,14 @@
     </header>
     <!-- / header hero Block -->
 
-
     <!-- main content with sections -->
     <main>            
         <!-- section about me with picture and icons -->
 		<section class="container-flex cols-2-split theme-one split-image-right">
-            <div class="col-2">                
+            <div id="about" class="col-2">                
                 <h2>Hello there, I'm Marcos</h2>
+
+                <h3>Student and Photography Lover</h3>
                 <p>From São Paulo Brazil, I have been living in Dublin for 3 Years. I was born in a small city on the coast of São Paulo, called Praia Grande.</p>
 
                 <h3>Studies</h3>
@@ -91,61 +93,76 @@
                 
                 <h3>Knowledge</h3>
                 <!-- Icons -->
-
-                <!-- FIX THIS BECAUSE IN A MOBILE IT IS NOT WORKING PROPERLY, SEE BRENDAMS CODE -->
-                <div class="container-btn">
-                    <img src="assets/img/icons/w3_html5-icon 1.svg">
-                    <img src="assets/img/icons/w3_css-icon.svg">
-                    <img src="assets/img/icons/javascript-horizontal.svg">
-                    <img src="assets/img/icons/nodejs-horizontal.svg">
+                <div class="container">
+                    <i class="fab fa-html5"></i>                    
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-node"></i>
                 </div>               
             </div>
-    
+            
             <div class="col-2">
                 <figure><img src="assets/img/circle-cropped Resized.jpg" alt="About"></figure>
             </div>           
         </section>
 
         <!-- Previous jobs -->
-        <section class="container-flex" style="background-color: #f2f2f2">
+        <section id="jobs" class="container-flex" style="background-color: #f2f2f2">
             <div class="col-3">
                 <figure>
-                    <img src="assets/img/Adelaide_Road_Church.png" alt="Jobs">
+                    <a href="https://www.adelaideroadchurch.ie" target="_blank">
+                        <img src="assets/img/Adelaide_Road_Church.png" alt="Adelaide Road Church">
+                    </a>
                 </figure>
     
                 <h3>Adelaide Church Dublin</h3>
                 <p>Adelaide Road Presbyterian Church (ARPC) is a “gathered” congregation of people, of all ages, family friendly, and situated in the heart of inner city South Dublin.</p>
     
-                <a href="https://www.adelaideroadchurch.ie" class="btn btn-ghost btn-rounded">More</a>
+                <a href="https://www.adelaideroadchurch.ie" target="_blank" class="btn btn-ghost btn-rounded">More</a>
             </div>
     
             <div class="col-3">
                 <figure>
-                    <img src="assets/img/Super_Snazzy.png" alt="Super Snazzy">
+                    <a href="https://mavinii.github.io/fashionv2" target="_blank">
+                        <img src="assets/img/Super_Snazzy.png" alt="Super Snazzy">
+                    </a>    
                 </figure>
     
                 <h3>Super Snazzy</h3>
                 <p>Welcome to Europe's number one fashion retailer. No one rivals our collection of hats, scarves, t-shirts, and footwear. And we place customer satisfaction at the heart of all we do.</p>
     
-                <a href="https://mavinii.github.io/fashionv2/" class="btn btn-ghost btn-rounded">More</a>
+                <a href="https://mavinii.github.io/fashionv2" target="_blank" class="btn btn-ghost btn-rounded">More</a>
             </div>
     
             <div class="col-3">
                 <figure>
-                    <img src="assets/img/Smooth_Smoothies.png" alt="Smooth Smoothies">
-                </figure>
-    
+                    <a href="https://mavinii.github.io/Smooth-Smoothies" target="_blank">
+                        <img src="assets/img/Smooth_Smoothies.png" alt="Smooth Smoothies">
+                    </a>
+                </figure>    
                 <h3>Smooth Smoothies</h3>
                 <p>Our world-class smoothies are great at any time of the day and offer a tasty alternative to sugary and unhealthy snacks.</p>
     
-                <a href="https://mavinii.github.io/Smooth-Smoothies/ " class="btn btn-ghost btn-rounded">More</a>
+                <a href="https://mavinii.github.io/Smooth-Smoothies" target="_blank" class="btn btn-ghost btn-rounded">More</a>
             </div>
         </section>
 
     </main>
     
     <!-- footer -->
-    <footer> </footer>
+	<footer>
+		<h2>Marcos Oliveira</h2>
+		<h3>CONNECT</h3>
+
+		<ul class="footer-icons">
+			<li><a href="https://www.linkedin.com/in/pgmarcosoliveira" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a href="https://github.com/mavinii" target="_blank"><i class="fab fa-github"></i></a></li>
+			<li><a href="https://unsplash.com/@pg_marcosoliveira" target="_blank"><i class="fas fa-camera"></i></a></li>
+            <li><a href="https://www.instagram.com/mavinii" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+	</footer>
    
     <!-- JavaScript menu -->
     <script src="assets/js/menu.js"></script>

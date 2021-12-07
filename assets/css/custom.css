@@ -154,12 +154,12 @@ body { font-family: var(--global-font) }
 .container-menu a#btn-cta:focus,
 .container-menu a#btn-cta:hover,
 .container-menu a#btn-cta:active { color: var(--black-000) }
-.container-menu.menu-desktop { background-color: var(--gray-200) }
+.container-menu.menu-desktop { background-color: var(--white-000) }
 .container-menu.menu-mobile { background-color: var(--gray-200) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
 
-
-.container-btn img {
-    width:auto;
-    height: auto;
+/* icons */
+.container .fab {
+    padding-left: 05px;
+    font-size: 45px;
 }
