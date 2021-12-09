@@ -16,9 +16,7 @@ footer *:last-child { margin-bottom: 0 !important }
 
 /* ================ HERO BLOCK ================ */
 
-header.hero-block { 
-    background-color: #495057; 
-}
+header.hero-block { background-color: var(--blue-600) }
 
 .hero-block {
     position: relative; overflow: hidden;
@@ -1630,16 +1628,16 @@ button > *:nth-child(2) { margin-left: 14px; margin-right: 0 }
 /* Primary buttons */
 .btn-primary:link, 
 .btn-primary:visited {
-    border: solid 2px #1f364d; 
-    color: #fff; 
-    background-color: #1f364d; 
+    border: solid 2px #000; 
+    color: #000; 
+    background-color: #fff; 
 } 
 
 a.btn-primary:focus, 
 a.btn-primary:hover, 
 a.btn-primary:active  {
     border: solid 2px var(--gray-700); 
-    /* background-color: var(--gray-700);   */
+    background-color: var(--gray-700);  
     color: #fff;
 }
 
