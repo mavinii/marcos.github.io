@@ -5,7 +5,7 @@ html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
-img { width: 85%; height: auto; display: block }
+img { width: 100%; height: auto; display: block }
 
 /* HTML5 container elements full viewport width */
 header, section, footer { width: 100% }
@@ -16,7 +16,9 @@ footer *:last-child { margin-bottom: 0 !important }
 
 /* ================ HERO BLOCK ================ */
 
-header.hero-block { background-color: var(--blue-600) }
+header.hero-block { 
+    background-color: #495057; 
+}
 
 .hero-block {
     position: relative; overflow: hidden;
@@ -1628,16 +1630,16 @@ button > *:nth-child(2) { margin-left: 14px; margin-right: 0 }
 /* Primary buttons */
 .btn-primary:link, 
 .btn-primary:visited {
-    border: solid 2px #000; 
-    color: #000; 
-    background-color: #fff; 
+    border: solid 2px #1f364d; 
+    color: #fff; 
+    background-color: #1f364d; 
 } 
 
 a.btn-primary:focus, 
 a.btn-primary:hover, 
 a.btn-primary:active  {
     border: solid 2px var(--gray-700); 
-    background-color: var(--gray-700);  
+    /* background-color: var(--gray-700);   */
     color: #fff;
 }
 
