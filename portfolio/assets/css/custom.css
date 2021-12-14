@@ -158,6 +158,11 @@ body { font-family: var(--global-font) }
 .container-menu.menu-mobile { background-color: var(--gray-200) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
 
+/* main image */
+.marcos_img{
+    width: 90%;
+}
+
 /* icons */
 .container .fab {
     padding-left: 05px;
