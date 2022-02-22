@@ -43,12 +43,15 @@
 
         gtag('config', 'G-XQBCG8H32E');
     </script>
+
+    <!-- Privacy Link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
 
     <!-- Navigation menu -->
-    <nav class="container-menu menu-desktop">
+    <nav class="container-menu menu-desktop menu-sticky">
         <a href="index.html"><img src="assets/img/MarcosLogo.png" alt="website logo"></a>
         <ul>
             <li><a href="portfolio/index.html">Portfolio</a></li>
@@ -95,10 +98,30 @@
             <li><a href="https://www.instagram.com/mavinii" target="_blank"><i class="fab fa-instagram"></i></a></li>
 		</ul>
 
-		<p class="privacy"><a href="#">Privacy &amp; Legal</a></p>
+		<p class="privacy"><a href="/privacy.html">Privacy &amp; Legal</a></p>
 	</footer>
    
     <!-- JavaScript menu -->
     <script src="assets/js/menu.js"></script>
+
+    <!-- JavaScript Privacy -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#efefef",
+            "text": "#404040"
+            },
+            "button": {
+            "background": "#8ec760",
+            "text": "#ffffff"
+            }
+        },
+        "content": {
+            "href": "https://mavinii.github.io/marcosoliveira/privacy.html"
+        }
+        });
+    </script>
 </body>
 </html>
